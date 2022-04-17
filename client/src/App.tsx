@@ -1,11 +1,12 @@
-import { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import NavBar from "./components/navBar/NavBar.component";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div>Hello</div>;
+  return (
+    <div className="px-12 py-3">
+      <NavBar />
+    </div>
+  );
 }
 
 export default App;
