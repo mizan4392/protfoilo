@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import { useState } from "react";
-import { close, logo, menu } from "../assets";
+import { close, logoPng, menu } from "../assets";
 import { navLinks } from "../constant";
 import { styles } from "../styles";
 
@@ -22,7 +22,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} className="w-9 h-9 object-contain" />
+          <img src={logoPng} className="w-20 h-20 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Mizan &nbsp;{" "}
             <span className="sm:block hidden">
