@@ -1,4 +1,5 @@
-export type DIRECTION_TYPE = "left" | "right" | "up" | "down";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+export type DIRECTION_TYPE = "left" | "right" | "up" | "down" | "";
 export const textVariant = (delay: number) => {
   return {
     hidden: {
@@ -20,7 +21,7 @@ export const textVariant = (delay: number) => {
 export const fadeIn = (
   direction: DIRECTION_TYPE,
   type: string,
-  delay: null,
+  delay: number,
   duration: number
 ) => {
   return {
@@ -87,9 +88,9 @@ export const slideIn = (
 };
 
 export const staggerContainer = (
-  staggerChildren: string,
-  delayChildren: number
-) => {
+  staggerChildren?: string,
+  delayChildren?: number
+): any => {
   return {
     hidden: {},
     show: {
