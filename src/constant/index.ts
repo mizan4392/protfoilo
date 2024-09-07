@@ -25,6 +25,19 @@ import {
   threejs,
 } from "../assets";
 
+export type Tag = {
+  name: string;
+  color: string;
+};
+
+export type ProjectT = {
+  name: string;
+  description: string;
+  tags: Tag[];
+  image: string;
+  source_code_link: string;
+};
+
 export const navLinks = [
   {
     id: "about",
