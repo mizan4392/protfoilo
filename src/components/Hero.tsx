@@ -17,7 +17,7 @@ const Hero = () => {
             Hi ! I'am <span className="text-[#915eff]">Mizan</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
-            I'm a Full Stack Developer with 3 Year's of experience in developing
+            I'm a Full Stack Developer with 3 years of experience in developing
             web applications with
             <span className="text-[#58C4DC]"> &nbsp;React</span> and
             <span className="text-red-500">&nbsp; NestJs</span>

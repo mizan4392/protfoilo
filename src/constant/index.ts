@@ -1,7 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -23,6 +20,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  reactJs,
+  nestJs,
 } from "../assets";
 
 export type Tag = {
@@ -55,20 +54,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-stack Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "ReactJS Developer",
+    icon: reactJs,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "NestJS Developer",
+    icon: nestJs,
   },
 ];
 

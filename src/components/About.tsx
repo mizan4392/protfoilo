@@ -47,10 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-        impedit illum eaque, quo nostrum exercitationem repellendus ullam
-        aspernatur accusantium commodi fuga quam facilis quae. Facere ipsam
-        eveniet veritatis autem nulla!
+        As a self-motivated, responsible and quick learner, seeking for such a
+        professional environment where have a dynamic and challenging task
+        through which I can enhance my skills to prove the best of my ability in
+        achieving the objective of the career. Try to lean new programming
+        languages & Love to explore new tools & technologies.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

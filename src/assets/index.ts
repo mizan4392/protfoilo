@@ -30,6 +30,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import logoPng from "./logo-png.png";
+import reactJs from "./react-js.png";
+import nestJs from "./nestjs.png";
 
 export {
   logo,
@@ -61,4 +63,6 @@ export {
   jobit,
   tripguide,
   logoPng,
+  reactJs,
+  nestJs,
 };
