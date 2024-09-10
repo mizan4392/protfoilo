@@ -19,7 +19,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             I'm a Full Stack Developer with 3 years of experience in developing
             web applications with
-            <span className="text-[#58C4DC]"> &nbsp;React</span> and
+            <span className="text-[#58C4DC]"> &nbsp;ReactJS</span> and
             <span className="text-red-500">&nbsp; NestJs</span>
           </p>
         </div>

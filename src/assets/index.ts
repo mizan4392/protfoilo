@@ -38,6 +38,10 @@ import firBase from "./tech/google-firebase-icon.png";
 import mySql from "./tech/mysql-icon.png";
 import postgressSql from "./tech/postgresql-icon.png";
 import graphQl from "./tech/graphql-icon.png";
+import easyfood from "./easyfood.png";
+import x from "./x.png";
+import diu from "./education/diu.png";
+import saclg from "./education/saclg.png";
 
 export {
   logo,
@@ -77,4 +81,8 @@ export {
   mySql,
   postgressSql,
   graphQl,
+  easyfood,
+  x,
+  diu,
+  saclg,
 };

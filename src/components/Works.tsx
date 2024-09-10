@@ -73,10 +73,14 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores autem
-          quae temporibus perspiciatis possimus, nihil obcaecati maiores aliquam
-          optio sint nulla ipsa laboriosam ipsam earum similique laudantium
-          magni quos delectus!
+          I work as a developer, mainly using ReactJS for the front-end and
+          NestJS for the back-end. In my projects, I build interactive user
+          interfaces and manage application states efficiently with React. On
+          the server side, I use NestJS to create robust APIs, which help in
+          connecting my applications with databases and other services. I often
+          implement authentication, authorization, and real-time features. My
+          projects focus on scalability and ensure high performance across both
+          the front-end and back-end.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

@@ -8,9 +8,6 @@ import {
   mongodb,
   git,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   reactJs,
   nestJs,
   rokkhi,
@@ -19,6 +16,10 @@ import {
   postgressSql,
   firBase,
   graphQl,
+  easyfood,
+  x,
+  diu,
+  saclg,
 } from "../assets";
 
 export type Tag = {
@@ -42,6 +43,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "education",
+    title: "Education",
   },
   {
     id: "contact",
@@ -181,16 +186,55 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "EasyFood",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, Order or book restaurant from various providers, providing a convenient and efficient solutions",
     tags: [
       {
-        name: "react",
+        name: "reactJS",
         color: "blue-text-gradient",
       },
       {
+        name: "Shadcn",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Auth0",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "NestJs",
+        color: "pink-text-gradient",
+      },
+      {
         name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cloudinary",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: easyfood,
+    source_code_link: "https://github.com/mizan4392/easyfood",
+    liveUrl: "https://easyfood-7iwa.onrender.com",
+  },
+  {
+    name: "X.com",
+    description:
+      "Basic X clone(twitter clone) with basic functionality like post, like, comment, follow, unfollow, etc.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -198,51 +242,35 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: x,
+    source_code_link: "https://github.com/mizan4392/x.com",
+    liveUrl: "https://x-8ecanwetm-mizans-projects-6ebeed28.vercel.app/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const educations = [
+  {
+    degree: "Bachelor of  Computer Science",
+    school: "Daffodil International University",
+    date: "2016 - 2020",
+    icon: diu,
+    iconBg: "#E6DEDD",
+    studentId: "164-15-8164",
+  },
+  {
+    degree: "Higher Secondary  Certificate",
+    school: "Chowmuhani govt. S A college",
+    date: "2013 - 2015",
+    icon: saclg,
+    iconBg: "#E6DEDD",
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  educations,
+};

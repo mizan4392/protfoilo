@@ -3,7 +3,6 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   StarsCanvas,
@@ -12,6 +11,8 @@ import {
 } from "./components";
 import "./index.css";
 import { Bounce, ToastContainer } from "react-toastify";
+import Education from "./components/Education";
+import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
@@ -35,10 +36,13 @@ function App() {
           <Hero />
         </div>
         <About />
+
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        <Education />
+        {/* <Feedbacks /> */}
+        <SocialLinks />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
