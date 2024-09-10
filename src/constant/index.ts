@@ -2,26 +2,23 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
   reactJs,
   nestJs,
+  rokkhi,
+  sciTech,
+  mySql,
+  postgressSql,
+  firBase,
+  graphQl,
 } from "../assets";
 
 export type Tag = {
@@ -69,14 +66,6 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -88,10 +77,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -101,21 +87,35 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "NestJS",
+    icon: nestJs,
+  },
+  {
+    name: "MySql",
+    icon: mySql,
+  },
+  {
+    name: "PstgressSql",
+    icon: postgressSql,
+  },
+  {
+    name: "Firebase",
+    icon: firBase,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "GraphQL",
+    icon: graphQl,
   },
+
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+
   {
     name: "docker",
     icon: docker,
@@ -124,50 +124,25 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "SciTech Academy",
+    icon: sciTech,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2020 - August 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing APIs for the frontend data and integrating with frontend.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Front-End Developer",
+    company_name: "Rokkhi It Solutions Ltd.",
+    icon: rokkhi,
+    iconBg: "#383E56",
+    date: "December 2019 - May 2020",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

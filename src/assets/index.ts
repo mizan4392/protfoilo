@@ -32,6 +32,12 @@ import tripguide from "./tripguide.png";
 import logoPng from "./logo-png.png";
 import reactJs from "./react-js.png";
 import nestJs from "./nestjs.png";
+import rokkhi from "./company/rokkhi.png";
+import sciTech from "./company/scitech.png";
+import firBase from "./tech/google-firebase-icon.png";
+import mySql from "./tech/mysql-icon.png";
+import postgressSql from "./tech/postgresql-icon.png";
+import graphQl from "./tech/graphql-icon.png";
 
 export {
   logo,
@@ -65,4 +71,10 @@ export {
   logoPng,
   reactJs,
   nestJs,
+  sciTech,
+  rokkhi,
+  firBase,
+  mySql,
+  postgressSql,
+  graphQl,
 };
