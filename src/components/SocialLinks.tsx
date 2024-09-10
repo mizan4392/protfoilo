@@ -36,7 +36,7 @@ function SocialLinks() {
           />
         </a>
         <a
-          href="https://fb.com/https://www.facebook.com/mizanurrahman.sobuz.7/"
+          href="https://www.facebook.com/mizanurrahman.sobuz.7/"
           target="blank"
         >
           <img
