@@ -42,6 +42,7 @@ import easyfood from "./easyfood.png";
 import x from "./x.png";
 import diu from "./education/diu.png";
 import saclg from "./education/saclg.png";
+import eye from "./eye.png";
 
 export {
   logo,
@@ -85,4 +86,5 @@ export {
   x,
   diu,
   saclg,
+  eye,
 };

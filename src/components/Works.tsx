@@ -5,7 +5,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { ProjectT, projects } from "../constant";
 import { Tilt } from "react-tilt";
 
-import { github } from "../assets";
+import { eye, github } from "../assets";
 
 type ProjectCardProps = {
   project: ProjectT;
@@ -28,7 +28,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
             alt={project.name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className=" absolute inset-0 flex justify-end m-3 card-image_hover">
+          <div className=" absolute inset-0 flex justify-end m-3 card-image_hover gap-3">
             <div
               onClick={() => {
                 window.open(project.source_code_link, "_blank");
@@ -37,6 +37,18 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
             >
               <img
                 src={github}
+                alt="github"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+            <div
+              onClick={() => {
+                window.open(project.liveUrl, "_blank");
+              }}
+              className="bg-gray-200 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={eye}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
               />

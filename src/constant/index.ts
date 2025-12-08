@@ -33,6 +33,7 @@ export type ProjectT = {
   tags: Tag[];
   image: string;
   source_code_link: string;
+  liveUrl: string;
 };
 
 export const navLinks = [
@@ -231,6 +232,36 @@ const projects = [
     tags: [
       {
         name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nextjs-Auth",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: x,
+    source_code_link: "https://github.com/mizan4392/x.com",
+    liveUrl: "https://x-com-9v9u.onrender.com/",
+  },
+  {
+    name: "WebChat",
+    description:
+      "Basic Group messaging app that uses socket.io to handle realtime communication.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk",
         color: "blue-text-gradient",
       },
       {
