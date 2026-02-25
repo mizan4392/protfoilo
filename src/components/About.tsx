@@ -44,7 +44,7 @@ const About = () => {
         <h1 className={styles.sectionHeadText}>OverView</h1>
       </motion.div>
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn("", "tween", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         As a self-motivated, responsible and quick learner, seeking for such a
