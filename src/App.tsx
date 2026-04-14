@@ -1,18 +1,18 @@
 import { BrowserRouter } from "react-router-dom";
 import {
   About,
-  Contact,
-  Experience,
+  // Contact,
+  // Experience,
   Hero,
   Navbar,
-  StarsCanvas,
-  Tech,
-  Works,
+  // StarsCanvas,
+  // Tech,
+  // Works,
 } from "./components";
 import "./index.css";
 import { Bounce, ToastContainer } from "react-toastify";
-import Education from "./components/Education";
-import SocialLinks from "./components/SocialLinks";
+// import Education from "./components/Education";
+// import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
