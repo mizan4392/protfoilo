@@ -37,16 +37,16 @@ function App() {
         </div>
         <About />
 
-        <Experience />
-        <Tech />
-        <Works />
-        <Education />
+        {/* <Experience /> */}
+        {/* <Tech /> */}
+        {/* <Works /> */}
+        {/* <Education /> */}
         {/* <Feedbacks /> */}
-        <SocialLinks />
-        <div className="relative z-0">
+        {/* <SocialLinks /> */}
+        {/* <div className="relative z-0">
           <Contact />
           <StarsCanvas />
-        </div>
+        </div> */}
       </div>
     </BrowserRouter>
   );
