@@ -4,8 +4,13 @@ import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { ProjectT, projects } from "../constant";
 import { Tilt } from "react-tilt";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+// import required modules
+import { Navigation } from "swiper/modules";
 import { eye, github } from "../assets";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
 
 type ProjectCardProps = {
   project: ProjectT;
@@ -23,11 +28,17 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
         }}
       >
         <div className="relative w-full h-[350px]">
-          <img
-            src={project.image}
-            alt={project.name}
-            className="w-full h-full object-cover rounded-2xl"
-          />
+          <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+            {project.image.map((img, index) => (
+              <SwiperSlide key={index}>
+                <img
+                  src={img}
+                  alt={project.name}
+                  className="w-full h-full object-cover rounded-2xl"
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
           <div className=" absolute inset-0 flex justify-end m-3 card-image_hover gap-3">
             <div
               onClick={() => {

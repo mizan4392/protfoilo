@@ -25,6 +25,7 @@
     "react-tilt": "^1.0.2",
     "react-toastify": "^10.0.5",
     "react-vertical-timeline-component": "^3.6.0",
+    "swiper": "^12.2.0",
     "three": "^0.168.0"
   },
   "devDependencies": {

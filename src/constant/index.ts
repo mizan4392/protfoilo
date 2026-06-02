@@ -16,10 +16,13 @@ import {
   postgressSql,
   firBase,
   graphQl,
-  easyfood,
+  easyfood1,
   x,
   diu,
   saclg,
+  webChat,
+  easyfood2,
+  easyfood,
 } from "../assets";
 
 export type Tag = {
@@ -31,7 +34,7 @@ export type ProjectT = {
   name: string;
   description: string;
   tags: Tag[];
-  image: string;
+  image: string[];
   source_code_link: string;
   liveUrl: string;
 };
@@ -225,9 +228,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: easyfood,
+    image: [easyfood, easyfood1, easyfood2],
     source_code_link: "https://github.com/mizan4392/easyfood",
-    liveUrl: "https://easyfood-7iwa.onrender.com",
+    liveUrl: "https://easyfood.mizan-dev.com/",
   },
   {
     name: "X.com",
@@ -251,9 +254,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: x,
+    image: [x],
     source_code_link: "https://github.com/mizan4392/x.com",
-    liveUrl: "https://x-com-9v9u.onrender.com/",
+    liveUrl: "http://social.mizan-dev.com/",
   },
   {
     name: "WebChat",
@@ -277,9 +280,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: x,
-    source_code_link: "https://github.com/mizan4392/x.com",
-    liveUrl: "https://x-8ecanwetm-mizans-projects-6ebeed28.vercel.app/",
+    image: [webChat],
+    source_code_link: "https://github.com/mizan4392/web-chat.git",
+    liveUrl: "https://web-chat.mizan-dev.com/",
   },
 ];
 

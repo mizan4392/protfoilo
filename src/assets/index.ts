@@ -38,11 +38,14 @@ import firBase from "./tech/google-firebase-icon.png";
 import mySql from "./tech/mysql-icon.png";
 import postgressSql from "./tech/postgresql-icon.png";
 import graphQl from "./tech/graphql-icon.png";
-import easyfood from "./easyfood.png";
 import x from "./x.png";
 import diu from "./education/diu.png";
 import saclg from "./education/saclg.png";
 import eye from "./eye.png";
+import easyfood from "./Easyfood1.png";
+import easyfood1 from "./easyfood2.png";
+import easyfood2 from "./easyfood3.png";
+import webChat from "./webchat.png";
 
 export {
   logo,
@@ -82,9 +85,12 @@ export {
   mySql,
   postgressSql,
   graphQl,
-  easyfood,
+  easyfood1,
   x,
   diu,
   saclg,
   eye,
+  webChat,
+  easyfood2,
+  easyfood,
 };
