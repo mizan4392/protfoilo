@@ -46,6 +46,9 @@ import easyfood from "./Easyfood1.png";
 import easyfood1 from "./easyfood2.png";
 import easyfood2 from "./easyfood3.png";
 import webChat from "./webchat.png";
+import social from "./social.png";
+import social2 from "./social1.png";
+import social3 from "./social2.png";
 
 export {
   logo,
@@ -93,4 +96,7 @@ export {
   webChat,
   easyfood2,
   easyfood,
+  social,
+  social2,
+  social3,
 };

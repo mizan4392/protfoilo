@@ -3,14 +3,15 @@ import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { ProjectT, projects } from "../constant";
-import { Tilt } from "react-tilt";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { Navigation } from "swiper/modules";
-import { eye, github } from "../assets";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import { FaEye, FaGithub } from "react-icons/fa";
 
 type ProjectCardProps = {
   project: ProjectT;
@@ -19,15 +20,8 @@ type ProjectCardProps = {
 const ProjectCard = ({ project, index }: ProjectCardProps) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        className="bg-tertiary p-5 rounded-2xl sm:w-[350px] w-full"
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-      >
-        <div className="relative w-full h-[350px]">
+      <div className="bg-tertiary p-5 rounded-2xl sm:w-[350px] w-full">
+        <div className="relative w-full">
           <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
             {project.image.map((img, index) => (
               <SwiperSlide key={index}>
@@ -39,7 +33,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
               </SwiperSlide>
             ))}
           </Swiper>
-          <div className=" absolute inset-0 flex justify-end m-3 card-image_hover gap-3">
+          {/* <div className=" absolute inset-0 flex justify-end m-3 card-image_hover gap-3">
             <div
               onClick={() => {
                 window.open(project.source_code_link, "_blank");
@@ -64,7 +58,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{project.name}</h3>
@@ -79,7 +73,29 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
             </p>
           ))}
         </div>
-      </Tilt>
+        <div className="flex justify-center gap-5 mt-2">
+          <button
+            type="button"
+            className="inline-flex items-center  text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 text-sm px-4 py-2.5 hover:bg-purple-700 rounded-lg border-purple-400"
+            onClick={() => {
+              window.open(project.source_code_link, "_blank");
+            }}
+          >
+            Source code
+            <FaGithub className="inline-flex items-center justify-center w-4.5 h-4.5 ms-2 text-xs font-medium text-fg-brand-strong bg-brand-soft rounded-full dark:text-fg-brand-subtle"></FaGithub>
+          </button>
+          <button
+            type="button"
+            className="inline-flex items-center  text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none hover:bg-purple-700 rounded-lg border-purple-400"
+            onClick={() => {
+              window.open(project.liveUrl, "_blank");
+            }}
+          >
+            Live demo
+            <FaEye className="inline-flex items-center justify-center w-4.5 h-4.5 ms-2 text-xs font-medium text-fg-brand-strong bg-brand-soft rounded-full dark:text-fg-brand-subtle"></FaEye>
+          </button>
+        </div>
+      </div>
     </motion.div>
   );
 };

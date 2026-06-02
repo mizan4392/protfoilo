@@ -5,7 +5,9 @@ import { ToastContainer } from "react-toastify";
 import Education from "./components/Education";
 import SocialLinks from "./components/SocialLinks";
 import ContactSection from "./components/ContactSection";
-
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
 function App() {
   return (
     <BrowserRouter>
@@ -20,12 +22,10 @@ function App() {
         <Experience />
         <Tech />
         <Works />
+
         <Education />
-        {/* <Feedbacks /> */}
         <SocialLinks />
         <div className="relative z-0">
-          {/* <Contact />
-          <StarsCanvas /> */}
           <ContactSection />
         </div>
       </div>
