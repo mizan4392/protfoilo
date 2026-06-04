@@ -45,10 +45,12 @@ import eye from "./eye.png";
 import easyfood from "./Easyfood1.png";
 import easyfood1 from "./easyfood2.png";
 import easyfood2 from "./easyfood3.png";
-import webChat from "./webchat.png";
+
 import social from "./social.png";
 import social2 from "./social1.png";
 import social3 from "./social2.png";
+import webChat from "./web-chat.png";
+import webChat1 from "./webchat1.png";
 
 export {
   logo,
@@ -99,4 +101,5 @@ export {
   social,
   social2,
   social3,
+  webChat1,
 };

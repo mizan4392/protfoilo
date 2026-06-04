@@ -25,6 +25,7 @@ import {
   easyfood,
   social2,
   social3,
+  webChat1,
 } from "../assets";
 
 export type Tag = {
@@ -282,9 +283,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: [webChat],
+    image: [webChat, webChat1],
     source_code_link: "https://github.com/mizan4392/web-chat.git",
-    liveUrl: "https://web-chat.mizan-dev.com/",
+    liveUrl: "https://webchat.mizan-dev.com/",
   },
 ];
 
