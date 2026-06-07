@@ -21,7 +21,7 @@ const Contact = () => {
     setLoading(true);
     emailJs
       .send(
-        "service_t7y93zq",
+        "service_ei3i15u",
         "template_g1ys5fj",
         {
           from_name: form.name,
@@ -30,7 +30,7 @@ const Contact = () => {
           to_email: "md.mizan4392@gmail.com",
           message: form.message,
         },
-        "lrTkPKrocPao9ilyC"
+        "lrTkPKrocPao9ilyC",
       )
       .then(
         () => {
@@ -46,7 +46,7 @@ const Contact = () => {
           setLoading(false);
           console.log(error);
           toast("Something went Wrong!!");
-        }
+        },
       );
   };
   const handleChange = (e: any) => {
